@@ -1,3 +1,14 @@
+# Disclaimer
+All assets used in this project were sourced from the Unity Asset Store for free. Full credit goes to the original creators of these assets. If you are interested in using these assets, you can find them directly on the Unity Asset Store by following these links:
+
+1. https://assetstore.unity.com/packages/tools/utilities/health-system-for-dummies-215755
+2. https://assetstore.unity.com/packages/2d/textures-materials/brick/high-quality-bricks-walls-49581
+3. https://assetstore.unity.com/packages/2d/free-stylized-2d-space-shooter-pack-245185
+4. https://assetstore.unity.com/packages/2d/gui/gold-mining-game-2d-mine-ui-tilset-263856
+5. https://assetstore.unity.com/packages/vfx/particles/spells/slash-effects-free-295209
+   
+Feel free to search for these assets on the Unity Asset Store to explore or use them in your own projects.
+
 # Unity Game Project
 
 This Project is a 2D Adventure Game using the assets forom App 1 and some more assets from unity store.
