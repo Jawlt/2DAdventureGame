@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="NPCDialogue" src="project://database/Assets/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=e735bdcf1397de442be638191a450ef4&amp;type=3#NPCDialogue" />
+    <ui:Template name="EntranceDialogue" src="project://database/Assets/EntranceDialogue.uxml?fileID=9197481963319205126&amp;guid=d5be88ebffcf82e489d24aa6766319fb&amp;type=3#EntranceDialogue" />
+    <ui:Template name="SecondStandEntranceDialogue" src="project://database/Assets/SecondStageEntranceDialogue.uxml?fileID=9197481963319205126&amp;guid=1dd2e8a82d691aa4bb1ee3009ed03752&amp;type=3#SecondStageEntranceDialogue" />
+    <ui:Template name="SecondStandExitEntranceDialogue" src="project://database/Assets/SecondStageExitEntranceDialogue.uxml?fileID=9197481963319205126&amp;guid=3ddb74248b5bd21448642838f182edae&amp;type=3#SecondStageExitEntranceDialogue" />
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&quot;); width: 598px; height: 313px; -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; position: absolute; height: 89px; width: 328px; top: 105px; left: 250px;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&quot;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharcterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Ruby/UI/CharacterPortrait.png?fileID=21300000&amp;guid=374193bc7008fa34ab9b2bbca376937b&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; left: -5px; top: 2px; right: auto; bottom: auto; height: 267px; width: 356px;" />
+    </ui:VisualElement>
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" style="position: absolute; bottom: 0; left: 15%; top: 80%; right: 15%;" />
+    <ui:Instance template="EntranceDialogue" name="EntranceDialogue" style="position: absolute; left: 15%; top: 80%; right: 15%; bottom: 0;" />
+    <ui:VisualElement name="GoldenKey" style="flex-grow: 1; position: absolute; bottom: 80%; right: 0; top: 0; left: 90%; background-image: url(&quot;project://database/Assets/My%20Assets/goldenKey.png?fileID=21300000&amp;guid=db18eb91258828e44b4519f3b9b72b46&amp;type=3#goldenKey&quot;); -unity-background-scale-mode: scale-to-fit;" />
+    <ui:Instance template="SecondStandEntranceDialogue" name="SecondStandEntranceDialogue" style="position: absolute; left: 15%; top: 80%; right: 15%; bottom: 0;" />
+    <ui:Instance template="SecondStandExitEntranceDialogue" name="SecondStageExitEntranceDialogue" style="position: absolute; left: 15%; top: 80%; right: 15%; bottom: 0;" />
+</ui:UXML>
